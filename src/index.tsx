@@ -437,7 +437,6 @@ export class Resizable extends React.Component<ResizableProps, State> {
     }
     const element = document.createElement('div');
     element.style.width = '100%';
-    element.style.height = '100%';
     element.style.position = 'absolute';
     element.style.transform = 'scale(0, 0)';
     element.style.left = '0';
